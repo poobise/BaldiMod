@@ -1,1 +1,1 @@
-%SystemRoot%\explorer.exe "C:\Users\Matthew Tuan\Downloads\SSBUWorkshop\BaldiMod\target\aarch64-skyline-switch\release\"
+%SystemRoot%\explorer.exe "C:\Users\Matthew Tuan\Documents\GitHub\BaldiMod\target\aarch64-skyline-switch\release"

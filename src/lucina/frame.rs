@@ -10,7 +10,6 @@ use {
 // What used to be known as a "Once-Per-Fighter-Frame". On-Line functions can be set to run on any status condition.
 unsafe extern "C" fn marth_on_main(fighter: &mut L2CFighterCommon) {
     unsafe {
-        println!("It'sa me, Baldi, im cool!");
         // Calls the global fighter frame
         global_fighter_frame(fighter);
         // Gives marth unlimited jumps.

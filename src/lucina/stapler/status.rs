@@ -41,7 +41,6 @@ pub unsafe extern "C" fn stapler_fly_pre(weapon: &mut L2CWeaponCommon) -> L2CVal
 pub unsafe extern "C" fn stapler_fly_init(weapon: &mut smashline::L2CWeaponCommon) -> L2CValue {
     if !WorkModule::is_flag(weapon.module_accessor, *WEAPON_INSTANCE_WORK_ID_FLAG_SWALLOWED) {
         //snap_to_owner(weapon,Hash40::new("have"),Hash40::new("haver"));
-        println!("poo poo!")
     }
     0.into()
 }
