@@ -1,0 +1,1 @@
+%SystemRoot%\explorer.exe "C:\Users\Matthew Tuan\Downloads\SSBUWorkshop\BaldiMod\target\aarch64-skyline-switch\release\"
