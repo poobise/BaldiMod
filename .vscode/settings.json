@@ -14,5 +14,14 @@
     "rust-analyzer.cargo.extraEnv": {
         "RUSTFLAGS": "--cfg skyline_std_v3",
         "SKYLINE_ADD_NRO_HEADER": 1
+    },
+    "files.exclude": {
+    ".devcontainer": true,
+    ".github": true,
+    "cargo skyline build --release.bat": true,
+    "openthefolder.bat": true,
+    "README.md": true ,
+    "rust-toolchain": true,
+    ".gitignore": true
     }
 }
